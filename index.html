@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <!-- Se referencio correctamente el css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>APIs</title>
 </head>
 <body>
-    <p class="name"></p>
-    <p class="blog"></p>
+<main>
+  <div class="card">
+    <div class="card-header">
+        <img class="avatar" src="" alt="Foto del usuario">
+        <h2 class="name">Nombre del usuario</h2>
+    </div>
+    <div class="card-body">
+        <p class="blog">Blog del usuario</p>
+        <p class="location">Ubicación del usuario</p>
+    </div>
+</div>
 
-  <script src="../assets/js/app.js"></script>
+<div class="search-box">
+    <input type="text" id="username" placeholder="Nombre de usuario">
+    <button id="searchButton">Buscar Usuario</button>
+</div>
+
+
+</main>
+
+
+  <!-- Se referencio correctamente el js -->
+  <script src="assets/js/app.js"></script>  
 </body>
 </html>
